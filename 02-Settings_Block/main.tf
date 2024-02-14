@@ -15,8 +15,8 @@ terraform {
 provider "aws" {
   # Extra details of provider (aws, google, azure)
   region = "ap-south-1"  # Mumbai
-  access_key = "*****" 
-  secret_key = "*****" # Never ever commit your access_key and secret_key in any SCM(github)
+#  access_key = "*****" 
+#  secret_key = "*****" # Never ever commit your access_key and secret_key in any SCM(github)
 }
 
 # Resource Settings block
